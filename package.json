@@ -1,0 +1,25 @@
+{
+  "name": "nycchr",
+  "version": "0.0.1",
+  "description": "NYC Critical Housing Research Website",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "pug": "pug -o public/ src/",
+      "watch": "pug -w -o public/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aepyornis/nycchr.git"
+  },
+  "author": "ziggy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aepyornis/nycchr/issues"
+  },
+  "homepage": "https://github.com/aepyornis/nycchr#readme",
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha1",
+    "skeleton-plus": "^2.0.0"
+  }
+}
