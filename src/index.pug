@@ -6,17 +6,63 @@ html(lang="en")
     meta(name='description' content='Research on housing in New York City')
     link(rel='stylesheet' href='lib/css/normalize.min.css')
     link(rel='stylesheet' href='lib/css/skeleton.plus.css')
+    link(rel='stylesheet' href='style.css')
   body
-    nav.container
+    nav.container.text-center
       a.brand NYCCHR
       ul
         li
           a about
         li
-          a hpd
-        li
-          a dobjobs
+          a research
         li
           a wiki
         li
-          a research
+          a blog
+    .row
+      .well.text-center
+        h2 New York City - Critical Housing Research
+        h5
+          strong Housing research & tools for:
+        h5 anti-gentrification activists, concerned citizens, and anyone who believes that cities are for people not for profit.
+    .row.text-center
+      h3 Research
+    .row.text-center
+      .four.columns.columns-sm
+        h4
+          a(href='https://hpd.ziggy.space') HPD
+        p
+          strong Corporate Landlords Hidden in HPD data
+        p Find who the largest landlords are in NYC and LLCs who are owned by the same company.
+      .four.columns.columns-sm
+        h4
+          a(href='https://dobjobs.org') DOB-Jobs
+        p
+         strong Department of Building's data made accessible
+        p Discover the latest DOB permits filled in your neighborhood, which landlords are making modification to their buildings, and where new buildings are being planned.
+      .four.columns.columns-sm
+        h4
+          a(href='https://wiki.nycchr.org/') Wiki
+        p
+         strong Real Estate Watch Wiki
+        p Contribute your research the wiki about landlords and housing
+    .row.text-center.second-row
+      .four.columns.columns-sm
+        h4
+         a(href='https://nycchr.org/j51/') J-51
+        p
+          strong Buildings that received the J-51 Tax Break
+      .four.columns.columns-sm
+        h4
+         a HPD Violations
+        p
+          strong Coming Soon!
+        p HPD violations by neighborhood and landlord
+      .four.columns.columns-sm
+        h4
+         a NYC-Zoning
+        p
+          strong Coming Soon!
+        p The #[span.strike good] and the bad of rezoning
+  footer.text-center
+    p by #[a(href='mailto:ziggy@elephant-bird.net') ziggy] //  #[a(href='https://github.com/aepyornis/nycchr') Source Code]
