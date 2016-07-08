@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "pug": "pug -o public/ src/",
-      "watch": "pug -w -o public/ src/",
+      "pug": "pug -o ./ src/",
+      "watch": "pug -w -o ./ src/",
       "serve": "cd public/ && python3 -m http.server"
   },
   "repository": {
